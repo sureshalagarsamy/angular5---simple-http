@@ -1,0 +1,9 @@
+<h2>Please submit the below button to get data</h2>
+<div>
+	<button (click)="getUserData()">submit</button>
+</div>
+<ul>
+	<li *ngFor="let item of groups">
+		<h2>{{item.id}}--{{item.name}}</h2>
+	</li>
+</ul>
